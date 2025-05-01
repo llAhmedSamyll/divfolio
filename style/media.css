@@ -73,9 +73,7 @@
     --section-width: 95%;
     flex-direction: column;
   }
-  #nav-bar {
-    display: none;
-  }
+
   #head h1 {
     font-size: 3rem;
   }
