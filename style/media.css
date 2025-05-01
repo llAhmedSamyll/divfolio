@@ -4,10 +4,12 @@
   :root {
     --section-width: 95%;
     flex-direction: column;
-    font-size: 12px;
   }
   #nav-bar {
     display: none;
+  }
+  #head h1 {
+    font-size: 3rem;
   }
   #head #typing {
     font-size: 2rem;
@@ -25,11 +27,46 @@
   #about .container .side-1 .profile p span {
     font-size: 1.3rem;
   }
-  #about .container .side-1 .profile p  {
+  #about .container .side-1 .profile p {
     font-size: 1.12rem;
   }
   #services .container .item {
     width: 100%;
+  }
+  #statistics .container {
+    width: 95%;
+    display: flex;
+    justify-content: space-around;
+  }
+  #statistics .container .item {
+    width: 90px;
+  }
+  #portfolio .container .items {
+    justify-content: center;
+  }
+  #portfolio .container .items .item {
+    width: calc(100% - 20px);
+  }
+
+  #blog .card {
+    width: calc(100% - 20px);
+  }
+  #blog .container {
+    justify-content: center;
+    gap: 20px;
+  }
+  #contact .container {
+    flex-direction: column;
+  }
+  #contact .container .side-1 {
+    width: 100%;
+  }
+  #contact .container .side-2 {
+    width: 100%;
+  }
+  #contact .container .side-2 .icons {
+    justify-content: center;
+    margin-top: 50px;
   }
 }
 
