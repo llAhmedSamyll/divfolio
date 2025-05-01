@@ -15,7 +15,9 @@
     <nav id="nav-bar">
       <div class="container">
         <div class="nav-logo">
-          <a href="">DevFolio</a>
+          <a href="javascript:void(0)" onclick="toggleMenu(this)">DevFolio</a>
+
+
         </div>
         <div class="nav-links">
           <ul>
@@ -433,7 +435,6 @@
         </div>
       </div>
     </section>
-
     <script>
       var typed = new Typed("#typing", {
         strings: ["Designer", "Developer", "Photographer"],
@@ -442,5 +443,22 @@
         loop: true,
       });
     </script>
+<script>
+  function toggleMenu(link) {
+    const navLinks = document.querySelector(".nav-links");
+
+    
+    navLinks.classList.toggle("show");
+
+    
+    if (navLinks.classList.contains("show")) {
+      link.classList.add("active");
+    } else {
+      link.classList.remove("active");
+    }
+  }
+</script>
+
+
   </body>
 </html>
