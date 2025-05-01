@@ -12,12 +12,16 @@
   #head #typing {
     font-size: 2rem;
   }
+
   #about .container {
     flex-direction: column;
     align-items: start;
   }
   #about .container .side-1 {
     width: 100%;
+  }
+  #about .container .side-1 .profile {
+    flex-direction: column;
   }
   #about .container .side-2 {
     width: 100%;
