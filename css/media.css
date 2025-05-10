@@ -1,0 +1,6 @@
+@media screen and (max-width: 576px) {
+    #my-pic {
+        width: 50% !important;
+    }
+    
+}
